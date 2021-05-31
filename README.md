@@ -22,9 +22,11 @@
 
 7. 然后`git commit -m '某人在5月30日交了周报'`
 
-8. 然后到GitHub上，到你的仓库里，点击pull request (pr)，然后new一个pr。
+8. `git push origin master`
 
-9. 最后等待审核(review)，通过后就会被合并进主分支。
+9. 然后到GitHub上，到你的仓库里，点击pull request (pr)，然后new一个pr。
+
+10. 最后等待审核(review)，通过后就会被合并进主分支。
 
 ---
 
