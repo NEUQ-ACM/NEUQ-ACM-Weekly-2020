@@ -6,13 +6,25 @@
 
 #### 周报上传步骤
 
-1. 先Fork我们的总仓库
-2. 将Fork后的仓库（你的） clone到本地
-3. 然后在你的目录下新建一个.md文件，写好周报内容，然后push到你的远程仓库
-4. 然后pull request
-5. 每次新增自己的周报前可以执行一次git pull upstream
+1. 给我们的仓库点个start
 
-~~或者直接在网页上操作，具体在录课中有。~~
+2. 点fork
+
+3. 到你fork后的仓库，复制你的仓库地址，本地执行`git clone xxxx`
+
+4. 然后执行`git remote add upstream https://github.com/NEUQ-ACM/NEUQ-ACM-Weekly-2020`，绑定一个别名叫做upstream的仓库，也就是我们的总仓库。
+
+   每次要写周报前都执行一次，保持自己仓库跟总仓库一致。
+
+5. 然后写周报
+
+6. 然后`git add file`
+
+7. 然后`git commit -m '某人在5月30日交了周报'`
+
+8. 然后到GitHub上，到你的仓库里，点击pull request (pr)，然后new一个pr。
+
+9. 最后等待审核(review)，通过后就会被合并进主分支。
 
 ---
 
